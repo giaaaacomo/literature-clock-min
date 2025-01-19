@@ -84,9 +84,9 @@ cite #book{
 }
  */
 /* dark theme */
-body.dark {
+/* body.dark {
     background: #181A1B;
-}
+} */
 
 /* body.dark #lit_quote em {
     color: rgb(220, 217, 212);
