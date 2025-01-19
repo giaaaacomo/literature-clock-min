@@ -14,14 +14,14 @@
             if (queries.has('theme')) {
                 var query_theme =  queries.get('theme').toLowerCase();
                 if (query_theme === 'dark') {
-                    dark_theme();
+                    light_theme();
                 } else {
                     light_theme();
                 }
             }
             // Try to guess theme preference
             else if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                dark_theme();
+                light_theme();
             } else {
                 light_theme();
             }
